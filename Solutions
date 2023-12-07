@@ -1,0 +1,9 @@
+select b.id,b.first_name,b.last_name,
+       a.id,a.customer_name,count(*) 
+from user_account b join
+       contact c
+       on b.id=c.user_account_id join
+       customer a on c.customer_id=a.id
+       group by b.id,b.first_name,b.last_name,a.id,a.customer_name
+having count(*)>1
+order by b.id;
