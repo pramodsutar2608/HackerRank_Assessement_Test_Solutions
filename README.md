@@ -7,3 +7,7 @@ This repository contains my solutions to HackerRank SQL (Basic) and SQL (Interme
 
 ## Test Date: 
 8th December 2023
+
+##Certificate Links
+SQL(Basic)- https://www.hackerrank.com/certificates/7168bf3bf245
+SQ (Intermediate)- https://www.hackerrank.com/certificates/01535e5316c5
