@@ -7,3 +7,5 @@ from user_account b join
        group by b.id,b.first_name,b.last_name,a.id,a.customer_name
 having count(*)>1
 order by b.id;
+
+
